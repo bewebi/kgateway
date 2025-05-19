@@ -3,8 +3,9 @@ package deployer
 import (
 	"context"
 	"fmt"
-	"github.com/kgateway-dev/kgateway/v2/pkg/utils/kubeutils"
 	"time"
+
+	"github.com/kgateway-dev/kgateway/v2/pkg/utils/kubeutils"
 
 	"github.com/onsi/gomega"
 	"github.com/onsi/gomega/gstruct"
